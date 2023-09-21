@@ -3,8 +3,8 @@ body{
 }
 .heading{
     text-align:center;
-    font-family:'Courier New', Courier, monospace;
-    color:#634d31
+    color:#634d31;
+	font-size: 70px;
 }
 * {
 	padding: 0;
@@ -83,7 +83,8 @@ p {
 }
 
 .inset {
-	max-width: 50%;
+	min-height:175px;
+	max-width: 54%;
 	margin: 0.25em 1em 1em 0;
 	border-radius: 0.25em;
 	float: left;
