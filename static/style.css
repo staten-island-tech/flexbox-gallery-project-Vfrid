@@ -30,9 +30,9 @@ p {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	width: 60vmin;
+	width: 45vmin;
 	height: 25em;
-	margin: 2.5rem 2rem;
+	margin: 2.5rem 1.6rem;
 	border: 8px solid;
 	border-color: burlywood;
 	transition: .3s ease-in-out;
@@ -68,7 +68,7 @@ p {
 	z-index: 1;
 }
 .main_img{
-	width:55vmin;
+	width:40vmin;
 }
 .image-content {
 	position: absolute;
@@ -83,8 +83,9 @@ p {
 }
 
 .inset {
-	min-height:175px;
-	max-width: 54%;
+	min-height:160px;
+	max-height:320px;
+	max-width: 100%;
 	margin: 0.25em 1em 1em 0;
 	border-radius: 0.25em;
 	float: left;
@@ -115,7 +116,7 @@ p {
 	position: absolute;
 	top: 0;
 	right: 0;
-	width: 60vmin;
+	width: 45vmin;
 	height: 100%;
 	padding: 3vmin 4vmin;
 	background: #fff;
