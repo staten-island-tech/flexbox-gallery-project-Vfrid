@@ -7,6 +7,10 @@ body{
 	font-size: 70px;
 	font-family: 'Mooli', sans-serif;
 }
+.heading:hover{
+	transform: scale(1.5,1.5);
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -231,4 +235,7 @@ p {
 	display:flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+.pears:hover {
+	transform: scale(1,1);
 }
