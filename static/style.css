@@ -38,9 +38,9 @@ p {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	width: 23%;
+	width: 22%;
 	height: 25em;
-	margin: 2.5rem 1.2rem;
+	margin: 2rem 1rem;
 	border: 8px solid;
 	border-color: burlywood;
 	box-shadow: 3px 5px 5px #634d31;
@@ -148,22 +148,22 @@ p {
 
 .wrap:hover .overlay
  {
-	transform: translateX(-60vmin);
+	transform: translateX(-100%);
 }
 .wrap:hover .image-content {
-	width: 30vmin;
+	width: 100%;
 }
 .wrap:hover .overlay-content {
 	border: none;
 	transition-delay: .2s;
-	transform: translateX(60vmin);
+	transform: translateX(40vmin);
 }
-.wrap:hover .dots {
+/* .wrap:hover .dots {
 	transform: translateX(1rem);
 }
 .wrap:hover .dots .dot {
 	background: white;
-}
+} */
 
 
 /* Animations and timing delays */
@@ -261,4 +261,17 @@ p {
 	.wrap {
 		width:100%;
 	}
+}
+.foot {
+	text-align:end;
+    color:#634d31;
+	font-size: 30px;
+	font-family: 'Mooli', sans-serif;
+	margin: 0vmin 3vmin;
+	transform: rotate(0deg);
+	transition: 4s;
+}
+.foot:hover{
+	transform: rotateY(360deg);
+	transition: 4s;
 }
