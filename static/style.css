@@ -157,7 +157,7 @@ p {
 .wrap:hover .overlay-content {
 	border: none;
 	transition-delay: .2s;
-	transform: translateX(45vmin);
+	transform: translateX(45%);
 }
 /* .wrap:hover .dots {
 	transform: translateX(1rem);
@@ -191,7 +191,7 @@ p {
 @keyframes slide {
   0% {
     opacity: 0;
-    transform: translate(4em, 0);
+    transform: translate(-100%);
   }
   100% {
     opacity: 1;
@@ -212,17 +212,6 @@ p {
   }
 }
 
-.slide-up {animation-name: slide-up;}
-@keyframes slide-up {
-	0% {
-		opacity: 0;
-		transform: translateY(3em);
-	}
-	100% {
-		opacity: 1;
-		transform: translateY(0);
-	}
-}
 
 .delay-1 {
   animation-delay: 0.3s;
@@ -275,7 +264,7 @@ p {
 	transition: 4s;
 }
 .foot:hover{
-	transform: rotateY(360deg);
+	transform: rotateY(180deg);
 	transition: 4s;
 }
 .title{
