@@ -38,8 +38,8 @@ p {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	width: 22%;
-	height: 20em;
+	/* width: 22%;
+	height: 20em; */
 	margin: 2rem 1rem;
 	border: 8px solid;
 	border-color: burlywood;
@@ -244,8 +244,14 @@ p {
 }
 @media scren and (max-width:1200px){
 	.wrap{
-		width:100%;
+		width:40em;
 		height:20em;
+	}
+}
+@media screen and (max-width: 812px) {
+	.wrap {
+		width:24em;
+		height:12em;
 	}
 }
 @media screen and (max-width: 812px) {
